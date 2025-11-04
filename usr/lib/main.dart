@@ -20,6 +20,7 @@ class JobApplicationApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.black, // Set app-wide background to black
       ),
       initialRoute: '/',
       routes: {

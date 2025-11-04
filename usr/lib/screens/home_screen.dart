@@ -18,9 +18,9 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             const Icon(
-              Icons.work,
+              Icons.handshake, // Changed from Icons.work to Icons.handshake for a handshake logo
               size: 80,
-              color: Colors.blue,
+              color: Colors.white, // Changed color to white for visibility on black background
             ),
             const SizedBox(height: 20),
             const Text(
@@ -28,6 +28,7 @@ class HomeScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
+                color: Colors.white, // Added white color for text visibility on black background
               ),
               textAlign: TextAlign.center,
             ),
@@ -36,7 +37,7 @@ class HomeScreen extends StatelessWidget {
               'Manage your job applications and upload your documents',
               style: TextStyle(
                 fontSize: 16,
-                color: Colors.grey,
+                color: Colors.white70, // Slightly transparent white for subtitle on black background
               ),
               textAlign: TextAlign.center,
             ),
