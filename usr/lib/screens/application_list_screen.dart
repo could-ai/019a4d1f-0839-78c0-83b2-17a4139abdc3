@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../models/job_application.dart';
 
 class ApplicationListScreen extends StatefulWidget {
   const ApplicationListScreen({super.key});
@@ -64,7 +63,7 @@ class _ApplicationListScreenState extends State<ApplicationListScreen> {
                   'No applications yet',
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.grey,
+                    color: Colors.white,
                   ),
                 ),
                 const SizedBox(height: 16),

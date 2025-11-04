@@ -152,6 +152,7 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: 16),
@@ -188,6 +189,7 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: 16),
@@ -241,12 +243,13 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
               ),
               const SizedBox(height: 8),
               const Text(
                 'Upload your resume, cover letter, or other documents (.doc, .docx)',
-                style: TextStyle(color: Colors.grey),
+                style: TextStyle(color: Colors.white70),
               ),
               const SizedBox(height: 16),
               ElevatedButton.icon(
@@ -267,7 +270,7 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
                   children: [
                     const Text(
                       'Uploaded Documents:',
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
                     ),
                     const SizedBox(height: 8),
                     ..._uploadedDocuments.asMap().entries.map((entry) {

@@ -53,6 +53,7 @@ class ApplicationDetailScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
               ),
             ),
             const SizedBox(height: 8),
@@ -81,6 +82,7 @@ class ApplicationDetailScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
               ),
             ),
             const SizedBox(height: 8),
@@ -113,7 +115,7 @@ class ApplicationDetailScreen extends StatelessWidget {
               'Application Date: ${_formatDate(application.applicationDate)}',
               style: const TextStyle(
                 fontSize: 16,
-                color: Colors.grey,
+                color: Colors.white,
               ),
             ),
             const SizedBox(height: 24),
@@ -122,6 +124,7 @@ class ApplicationDetailScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
+                color: Colors.white,
               ),
             ),
             const SizedBox(height: 8),
