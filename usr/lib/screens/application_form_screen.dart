@@ -147,12 +147,12 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
+              Text(
                 'Company Information',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.grey[900],
                 ),
               ),
               const SizedBox(height: 16),
@@ -184,12 +184,12 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
                 },
               ),
               const SizedBox(height: 24),
-              const Text(
+              Text(
                 'Your Information',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.grey[900],
                 ),
               ),
               const SizedBox(height: 16),
@@ -238,18 +238,18 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
                 },
               ),
               const SizedBox(height: 24),
-              const Text(
+              Text(
                 'Documents',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.grey[900],
                 ),
               ),
               const SizedBox(height: 8),
-              const Text(
+              Text(
                 'Upload your resume, cover letter, or other documents (.doc, .docx)',
-                style: TextStyle(color: Colors.white70),
+                style: TextStyle(color: Colors.grey[700]),
               ),
               const SizedBox(height: 16),
               ElevatedButton.icon(
@@ -268,9 +268,9 @@ class _ApplicationFormScreenState extends State<ApplicationFormScreen> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
+                    Text(
                       'Uploaded Documents:',
-                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey[900]),
                     ),
                     const SizedBox(height: 8),
                     ..._uploadedDocuments.asMap().entries.map((entry) {

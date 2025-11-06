@@ -15,12 +15,12 @@ class JobApplicationApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Job Applications',
+      title: 'EncoreCareers',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
-        scaffoldBackgroundColor: Colors.black, // Set app-wide background to black
+        scaffoldBackgroundColor: Colors.grey[50], // Set app-wide background to light grey
       ),
       initialRoute: '/',
       routes: {

@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Job Applications'),
+        title: const Text('EncoreCareers'),
         centerTitle: true,
       ),
       body: Padding(
@@ -17,27 +17,27 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const Icon(
-              Icons.handshake, // Changed from Icons.work to Icons.handshake for a handshake logo
+            Icon(
+              Icons.handshake,
               size: 80,
-              color: Colors.white, // Changed color to white for visibility on black background
+              color: Theme.of(context).colorScheme.primary,
             ),
             const SizedBox(height: 20),
-            const Text(
-              'Welcome to Job Applications',
+            Text(
+              'Welcome to EncoreCareers',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Colors.white, // Added white color for text visibility on black background
+                color: Colors.grey[900],
               ),
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 10),
-            const Text(
+            Text(
               'Manage your job applications and upload your documents',
               style: TextStyle(
                 fontSize: 16,
-                color: Colors.white70, // Slightly transparent white for subtitle on black background
+                color: Colors.grey[700],
               ),
               textAlign: TextAlign.center,
             ),

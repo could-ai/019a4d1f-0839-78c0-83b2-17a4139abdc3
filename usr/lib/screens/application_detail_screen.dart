@@ -48,12 +48,12 @@ class ApplicationDetailScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 24),
-            const Text(
+            Text(
               'Company Information',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: Colors.grey[900],
               ),
             ),
             const SizedBox(height: 8),
@@ -77,12 +77,12 @@ class ApplicationDetailScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 24),
-            const Text(
+            Text(
               'Applicant Information',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: Colors.grey[900],
               ),
             ),
             const SizedBox(height: 8),
@@ -113,18 +113,18 @@ class ApplicationDetailScreen extends StatelessWidget {
             const SizedBox(height: 24),
             Text(
               'Application Date: ${_formatDate(application.applicationDate)}',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 16,
-                color: Colors.white,
+                color: Colors.grey[900],
               ),
             ),
             const SizedBox(height: 24),
-            const Text(
+            Text(
               'Uploaded Documents',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: Colors.grey[900],
               ),
             ),
             const SizedBox(height: 8),
